@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Menambahkan link CDN Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- Menambahkan link CDN untuk Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Menambahkan link CDN untuk Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a> <!-- Link to About section -->
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#portfolio" style="--i:4">Project</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+    <video class="bg-video" autoplay muted loop playsinline>
+        <source src="11.webm" type="video/webm">
+
+    </video>
+    <div class="video-overlay"></div>
+        <div class="home-content">
+            <div class="text-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Muhamad Arya Darmawan</h1>
+                <h3>And I'm <span class="text"></span></h3>
+                <p>I am a student of Informatics Engineering, Indraprasta University.</p>
+
+                <div class="home-sci">
+                    <a href="https://www.instagram.com/aryaadrmwn?igsh=NWp6aXdtOWZodGJv" target="_blank" style="--i:7">
+                        <i class="bx bxl-instagram"></i>
+                    </a>   
+                    <a href="https://wa.me/qr/FR3V5WFAFXDSK1" target="_blank" style="--i:8">
+                        <i class="bx bxl-whatsapp"></i>
+                    </a>                 
+                    <a href="https://www.linkedin.com/in/muhamad-arya-darmawan-32891b322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="--i:9">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@darmawanaryaa?_t=8rAAzpRkeLn&_r=1" target="_blank" style="--i:10">
+                        <i class="bx bxl-tiktok"></i>
+                    </a>
+                </div>
+
+                <a href="#" class="btn-box">More About Me</a>        
+            </div>
+
+        <div class="profile-wrapper">
+            <div class="profile-img">
+                <img src="Image_1.webp" alt="Profile">
+            </div>
+        </div>
+     </section>
+
+   <!-- Section About -->
+<section id="about" class="about">
+    <div class="about-img">
+        <img src="Image_1.webp" alt="Foto Pribadi">
+    </div>
+    <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <p> 
+            Halo! Salam hangat, saya adalah mahasiswa semester tiga Teknik Informatika di Universitas Indraprasta, didorong oleh minat yang mendalam terhadap teknologi dan pemrograman. Dengan dasar yang kuat di bidang ini, saya ingin terus berkembang dan menyempurnakan keterampilan saya, selalu mencari peluang untuk belajar, beradaptasi, dan menghadapi tantangan baru. Ambisi saya adalah memberikan kontribusi yang bermakna pada lanskap teknologi yang terus berkembang, terutama di bidang seperti pengembangan perangkat lunak, ilmu data, AI, keamanan siber, dan sektor dinamis lainnya dalam industri ini. Di era digital ini, di mana teknologi membentuk hampir setiap aspek kehidupan kita, menguasai keterampilan ini menjadi sangat penting. Saya berkomitmen untuk tetap berada di garis depan kemajuan teknologi, dengan tujuan menjadi aset berharga bagi dunia digital, di mana inovasi dan kemampuan beradaptasi adalah pendorong utama kesuksesan.        </p>
+    </div>
+</section>
+
+    <!-- Section Skills -->
+<section id="skills" class="skills">
+    <div class="skills-title">
+        <h2>My <span>Skills</span></h2>
+        <p>Berikut sejumlah kemampuan yang sudah saya pelajari sejauh ini</p>
+    </div>
+
+    <div class="skills-slider">
+
+        <button class="skill-btn left" aria-label="Previous skills slide">
+            <i class="bx bx-chevron-left"></i>
+        </button>
+
+        <div class="skills-viewport" tabindex="0" aria-roledescription="carousel">
+            <div class="skills-track">
+
+                <!-- PAGE 1 -->
+                <div class="skills-page">
+                    <div class="skill"><i class="bx bxl-html5"></i><h3>HTML</h3></div>
+                    <div class="skill"><i class="bx bxl-css3"></i><h3>CSS</h3></div>
+                    <div class="skill"><i class="bx bxl-javascript"></i><h3>JavaScript</h3></div>
+                    <div class="skill"><i class="bx bxl-python"></i><h3>Python</h3></div>
+
+                    <div class="skill"><i class="bx bxl-react"></i><h3>React</h3></div>
+                    <div class="skill"><i class="bx bxl-java"></i><h3>Java</h3></div>
+                    <div class="skill"><i class="bx bxl-php"></i><h3>PHP</h3></div>
+                    <div class="skill"><i class="bx bxl-go-lang"></i><h3>Golang</h3></div>
+                </div>
+
+                <!-- PAGE 2 -->
+                <div class="skills-page">
+                    <div class="skill"><i class="bx bxl-bootstrap"></i><h3>Bootstrap</h3></div>
+                    <div class="skill"><i class="bx bxl-wordpress"></i><h3>WordPress</h3></div>
+                    <div class="skill"><i class="bx bxl-adobe"></i><h3>Adobe</h3></div>
+                    <div class="skill"><i class="bx bxl-windows"></i><h3>Windows</h3></div>
+
+                    <div class="skill"><i class="fab fa-ubuntu"></i><h3>Ubuntu</h3></div>
+                    <div class="skill"><i class="bx bxl-github"></i><h3>GitHub</h3></div>
+                    <div class="skill"><i class="bx bxl-angular"></i><h3>Angular</h3></div>
+                    <div class="skill"><i class="fab fa-linux"></i><h3>Linux</h3></div>
+                </div>
+
+                <!-- PAGE 3 -->
+                <div class="skills-page">
+                    <div class="skill"><i class="bx bx-copyright"></i><h3>Canva</h3></div>
+                    <div class="skill"><i class="fab fa-database"></i><h3>MySQL</h3></div>
+                    <div class="skill"><i class="bx bxl-figma"></i><h3>Figma</h3></div>
+                    <div class="skill"><i class="bx bxl-flutter"></i><h3>Flutter</h3></div>
+
+                    <div class="skill"><i class="bx bxl-android"></i><h3>Android Studio</h3></div>
+                    <div class="skill"><i class="bx bxl-mongodb"></i><h3>MongoDB</h3></div>
+                    <div class="skill"><i class="bx bxl-postgresql"></i><h3>PostgreSQL</h3></div>
+                </div>
+
+            </div>
+        </div>
+
+        <button class="skill-btn right" aria-label="Next skills slide">
+            <i class="bx bx-chevron-right"></i>
+        </button>    
+
+    </div>
+
+    <div class="skills-indicators" 
+    role="tablist" 
+    aria-label="Skills slider navigation">
+</div>
+
+</section>
+
+        <section id="SoftSkills" class="SoftSkills">
+            <div class="Skill-Teks">
+                <h2>My <span>Soft Skills</span></h2>
+                <p>Soft skill Saya</p>
+            </div>
+
+            <div class="soft-title">
+                <div class="title-soft">
+                <button class="btn-box1">Leadership</button>
+                <button class="btn-box1">Adaptif</button>
+                <button class="btn-box1">Profesionalisme</button>
+                <button class="btn-box1">Problem Solving</button>
+                <button class="btn-box1">Communication</button>
+                <button class="btn-box1">Time Management</button>
+                <button class="btn-box1">Teamwork</button>
+                <button class="btn-box1">Creativity</button>                                        
+                </div>
+            </div>
+    </section>
+
+<!-- Section Portfolio -->
+<section id="portfolio" class="portfolio">
+    <div class="portfolio-title">
+        <h2>My <span>Project</span></h2>
+        <p>Beberapa project terbaik yang pernah saya kerjakan</p>
+    </div>
+    <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button>
+    </div>
+    <div class="portfolio-container">
+        <div class="portfolio-item" data-category="web">
+            <div class="portfolio-slider" id="portfolio-slider-1">
+                <button class="slider-btn slider-btn-left" onclick="slidePortfolio(1, -1)" aria-label="Previous image"><i class="bx bx-chevron-left"></i></button>
+                <div class="slider-images">
+                    <img src="fotorame2_1.webp" alt="" class="slider-img active" loading="lazy">
+                    <img src="IMG-20251110-WA0002.webp" alt="" class="slider-img" loading="lazy">
+                    <img src="IMG-20251110-WA0003.webp" alt="" class="slider-img" loading="lazy">
+                    <img src="IMG-20251110-WA0004.webp" alt="" class="slider-img" loading="lazy">
+                    <img src="IMG-20251110-WA0005.webp" alt="" class="slider-img" loading="lazy">
+                </div>
+                <button class="slider-btn slider-btn-right" onclick="slidePortfolio(1, 1)" aria-label="Next image"><i class="bx bx-chevron-right"></i></button>
+            </div>
+            <div class="portfolio-desc">
+                <h3>Website Masjid At-Taqwa</h3>
+                <p>Melalui program MKWK pada semester 1, saya dan tim project telah mengembangkan dan menyerahkan website resmi kepada Masjid At-Taqwa Poltangan, Jakarta Selatan. Website ini dirancang dengan tampilan modern dan fitur informatif, bertujuan untuk meningkatkan akses publik terhadap kegiatan masjid, jadwal ibadah, serta layanan sosial keagamaan.</p>
+                <a href="#" class="portfolio-link" target="_blank" aria-label="View project"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-item" data-category="design">
+            <div class="portfolio-slider" id="portfolio-slider-2">
+                <button class="slider-btn slider-btn-left" onclick="slidePortfolio(2, -1)" aria-label="Previous image"><i class="bx bx-chevron-left"></i></button>
+                <div class="slider-images">
+                    <img src="foto-fans-food2.webp" alt="" class="slider-img active" loading="lazy">
+                    <img src="banner-depan-uk-1000x500mm.webp" alt="" class="slider-img" loading="lazy">
+                    <img src="Nasi Ayam Bakar Sambal Ijo_PESONA.webp" alt="" class="slider-img" loading="lazy">
+                </div>
+                <button class="slider-btn slider-btn-right" onclick="slidePortfolio(2, 1)" aria-label="Next image"><i class="bx bx-chevron-right"></i></button>
+            </div>
+            <div class="portfolio-desc">
+                <h3>Restoran Fan's Food</h3>
+                <p>Sebagai mahasiswa semester 2 di bidang Teknik Informatika, saya aktif mencari pengalaman nyata di dunia kerja. Salah satu kesempatan berharga saya dapatkan saat bergabung sebagai Graphic Designer di restoran Fans Food. Di sana, saya tidak hanya merancang materi visual, tetapi juga terjun langsung untuk memahami alur kerja, branding, dan dinamika industri kuliner. Walaupun tidak sepenuhnya sejalan dengan bidang studi saya, pengalaman ini memperluas perspektif kreatif dan mengasah kemampuan saya dalam berpikir visual serta berkolaborasi antar tim.</p>
+                <a href="#" class="portfolio-link" target="_blank" aria-label="View project"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-item" data-category="web">
+            <img src="" alt="Next Project Web" loading="lazy">
+            <div class="portfolio-overlay">
+                <h3>Web Developed</h3>
+                <p>Coming soon</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item" data-category="design">
+            <img src="" alt="Next Project Design" loading="lazy">
+            <div class="portfolio-overlay">
+                <h3>Design</h3>
+                <p>Coming soon</p>
+                <a href="#" class="portfolio-link" target="_blank" aria-label="View project"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Lightbox Modal -->
+    <div id="imageModal" class="lightbox-modal" role="dialog" aria-labelledby="lightboxCaption" aria-hidden="true">
+        <span class="close-lightbox" aria-label="Close modal">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" alt="">
+        <div id="lightboxCaption"></div>
+    </div>
+</section>
+
+        <!-- Section Contact -->
+        <section class="contact" id="contact">
+            
+            <div class="contact-text">
+                <h2>Contact <span>Me</span></h2>
+                <h4><span>Let's work</span> Together</h4>
+
+                <p>"Barang siapa yang ingin dilapangkan rezekinya dan dipanjangkan umurnya, maka hendaklah ia menyambung tali silaturahmi."</p>
+                <p><i>(Hadis riwayat Bukhari dan Muslim)</i></p>
+
+                <p>Ini bukan akhir, melainkan sebuah awal. Terima kasih atas kesempatan untuk menunjukkan potensi saya, dan semoga kita bisa berkolaborasi di masa depan.</p>
+                
+                <div class="contact-info">
+                    <ul class="contact-list">
+                        <li>
+                            <i class="bx bxs-send"></i> 
+                            <a href="mailto:mhmmdaryadarmawan@gmail.com" style="color: inherit; text-decoration: none;">mhmmdaryadarmawan@gmail.com</a>
+                        </li> 
+                        <li>
+                            <i class="bx bxs-phone"></i> 
+                            <a href="https://wa.me/62895361108376" target="_blank" style="color: inherit; text-decoration: none;">+62 895 3611 08376</a>
+                        </li> 
+                    </ul>
+
+                    <div class="contact-social">
+                        <a href="https://www.instagram.com/aryaadrmwn?igsh=NWp6aXdtOWZodGJv" target="_blank" style="--i:7">
+                            <i class="bx bxl-instagram"></i>
+                        </a> 
+                        <a href="https://wa.me/62895361108376" target="_blank">
+                            <i class="bx bxl-whatsapp"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhamad-arya-darmawan-32891b322" target="_blank">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@darmawanaryaa" target="_blank">
+                            <i class="bx bxl-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xqekjvod" method="POST">
+                    
+                    <div class="form-group">
+                        <input type="text" name="nama" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Your Subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea name="pesan" placeholder="Your Message" required></textarea>
+                        <input type="submit" value="Submit" class="send">
+                    </div>
+                    
+                </form>
+            </div>
+
+        </section>
+    
+    <!-- Footer with Copyright Information -->
+    <footer class="footer">
+        <p> Semua hak cipta dilindungi. | Developed By Muhamad Arya Darmawan</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
